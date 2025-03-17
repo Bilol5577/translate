@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    margin: 0;
+}
+
+
+.container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.translation-box {
+    margin-bottom: 20px;
+}
+
+
+select {
+    width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+button {
+    background: #ff4081;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(255, 64, 129, 0.4);
+}
+
+button:hover {
+    background: #e91e63;
+}
+
+
+.translate-btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    background: #00c853;
+    box-shadow: 0px 4px 10px rgba(0, 200, 83, 0.4);
+}
+
+.translate-btn:hover {
+    background: #00b74a;
+}
+
+
+.speak-btn {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.speak-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.change-btn {
+    background: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.4);
+}
+
+.change-btn:hover {
+    background: #e6b800;
+}
